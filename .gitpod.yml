@@ -2,6 +2,5 @@ image:
   file: .gitpod.Dockerfile
 
 tasks:
-  - init: 'echo "TODO: Replace with init/build command"'
-    command: 'echo "TODO: Replace with command to start project"'
-    
+  - init: echo "Replace me with a build script for the project."
+    command: mkdir -p /workspace/data && mongod --dbpath /workspace/data &
